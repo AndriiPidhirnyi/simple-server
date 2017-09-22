@@ -2,10 +2,9 @@
   "name": "users-list-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.js",g
   "scripts": {
-    "start": "json-server",
-    "dev": "json-server --watch ./db.json --port 3333 --routes routes.json",
+    "start": "json-server ./db.json --port 3333 --routes routes.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
